@@ -1,4 +1,7 @@
 :root {
+  display: flex;
+  flex-direction: column;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +68,14 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+ul li {
+  cursor: pointer;
+  list-style-type: none;
+  text-align: left;
+}
+
+.main-Container {
+  display: flex;
 }
